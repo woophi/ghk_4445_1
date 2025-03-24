@@ -7,7 +7,7 @@ import robotImg from './assets/robot.png';
 import { appSt } from './style.css';
 
 const chatBotLink =
-  'alfabank://configurable_chat?sourceChannelId=AI3_CHAT&navigationTitle=%D0%90%D0%BB%D1%8C%D1%84%D0%B0-%D0%90%D1%81%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BD%D1%82&attachmentsPickerEnabled=false&suggestionsEnabled=false&welcomeMessageEnabled=false&voiceMessageEnabled=false&quotesEnabled=false';
+  'a-investments://CA?type=place&value=helperAIChat';
 
 export const App = () => {
   const [showBs, setShowBs] = useState(false);
